@@ -4,9 +4,21 @@ import '../models/product-list-item.model.dart';
 import '../settings.dart';
 
 class ProductRepository {
+  String token = '';
+  // get with basic auth
   Future<List<ProductListItemModel>> getAll() async {
     var url = "${Settings.apiUrl}v1/products";
     Response response = await Dio().get(url);
+    return (response.data as List)
+        .map((course) => ProductListItemModel.fromJson(course))
+        .toList();
+  }
+
+  Future<List<ProductListItemModel>> getAllWithoptions() async {
+    var url = "${Settings.apiUrl}v1/products";
+
+    Response response = await Dio().get(url,
+        options: Options(contentType: Headers.formUrlEncodedContentType));
     return (response.data as List)
         .map((course) => ProductListItemModel.fromJson(course))
         .toList();

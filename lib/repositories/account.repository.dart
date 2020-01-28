@@ -16,4 +16,13 @@ class AccountRepository {
     Response response = await Dio().post(url, data: model);
     return UserModel.fromJson(response.data);
   }
+
+  Future<UserModel> createProgress(CreateUserModel model) async {
+    var url = "${Settings.apiUrl}v1/account";
+    Response response = await Dio().post(url, data: model,
+        onSendProgress: (int sent, int total) {
+      print("$sent $total");
+    });
+    return UserModel.fromJson(response.data);
+  }
 }

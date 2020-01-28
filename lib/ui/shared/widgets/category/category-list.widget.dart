@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:shoppingmodel/models/category-list-item.model.dart';
 import 'package:shoppingmodel/ui/shared/widgets/category/category-card.widget.dart';
@@ -11,6 +12,7 @@ class CategoryList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Colors.orangeAccent,
       height: 90,
       child: Loader(
         object: categories,
