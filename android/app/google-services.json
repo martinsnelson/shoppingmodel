@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "173855189557",
+    "firebase_url": "https://appflutter-f5edb.firebaseio.com",
+    "project_id": "appflutter-f5edb",
+    "storage_bucket": "appflutter-f5edb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173855189557:android:206c2c381e88da00cadf7c",
+        "android_client_info": {
+          "package_name": "com.cbarato.shoppingmodel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173855189557-erdcgqpln5shtl0terho4860kv73tvbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHPzML-tRK7EvUHCXhvnEb1_D_vE-7tQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173855189557-erdcgqpln5shtl0terho4860kv73tvbv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "173855189557-5k6liadjrng4efqtmb9kkt9msckdb8qo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cbarato.shoppingmodel"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173855189557:android:9ee94b84896e762dcadf7c",
+        "android_client_info": {
+          "package_name": "com.cbarato.todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173855189557-erdcgqpln5shtl0terho4860kv73tvbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHPzML-tRK7EvUHCXhvnEb1_D_vE-7tQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173855189557-erdcgqpln5shtl0terho4860kv73tvbv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "173855189557-5k6liadjrng4efqtmb9kkt9msckdb8qo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cbarato.shoppingmodel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
