@@ -25,9 +25,9 @@ dependencies:
   provider: any
   dio: any
   intl: ^0.15.8
-  shared_preferences: ^0.5.3
-  firebase_core: ^0.2.5  # add dependency for Firebase Core
-  firebase_analytics: ^1.0.4  # add dependency for Google Analytics for Firebase
+  # firebase_core: ^0.2.5  # add dependency for Firebase Core
+  # firebase_analytics: ^1.0.4  # add dependency for Google Analytics for Firebase
+  # shared_preferences: ^0.5.3
 
 dev_dependencies:
   flutter_test:

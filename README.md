@@ -15,6 +15,20 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-
-
+# Get packages flutter
 flutter packages get
+
+# Build an APK default release
+flutter build apk
+
+# Build an APK default release with build name and build number
+flutter build apk --build-name shoppingmodel --build-number 1.0.0.1
+
+# Build an APK default release all the target ABIs This command results in three APK files: app-armeabi-v7a / app-arm64-v8a / app-x86_64
+flutter build apk --split-per-abi
+
+# Build an app bundle
+flutter build appbundle
+
+# Generate icon app
+flutter pub run flutter_launcher_icons:main
